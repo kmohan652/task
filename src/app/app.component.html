@@ -1,0 +1,19 @@
+
+<div class="row">
+<div class="col-lg-12 col-sm-12" style="color: blue;">
+<div class="col-lg-12 col-sm-12" style="color: blue;">
+<i class="fa fa-users" aria-hidden="true"></i> Choose Number of people
+</div>
+<div class="col-lg-8 col-sm-8" style="border: 1px solid #ccc;">
+<div class="col-lg-12 col-sm-12" style="border-bottom: 1px solid #ccc;">
+	<i class="fa fa-bed" aria-hidden="true"></i> ROOMS    <div class="pull-right"><button  [disabled]=removeRommDisable (click)="removeRooms()"><i class="fa fa-minus-circle" aria-hidden="true"></i></button> {{room}} <button [disabled]=addRoomDisable (click)="addRooms()"><i class="fa fa-plus-circle" aria-hidden="true"></i></button></div>
+</div>
+<div class="col-lg-12 col-sm-12" style="border-bottom: 1px solid #ccc;">
+	<i class="fa fa-user" aria-hidden="true"></i> &nbsp; ADULTS    <div class="pull-right"><button [disabled]=rmAdltsDs (click)="removeAdults()"><i class="fa fa-minus-circle" aria-hidden="true"></i></button> {{adults}} <button [disabled]=addAdltDs (click)="addAdults()"><i class="fa fa-plus-circle" aria-hidden="true"></i></button></div>
+</div>
+<div class="col-lg-12 col-sm-12" style="border-bottom: 1px solid #ccc;">
+	<i class="fa fa-child" aria-hidden="true"></i> CHILDREN    <div class="pull-right"><button [disabled]=rmChiDs (click)="removChildreens()"><i class="fa fa-minus-circle" aria-hidden="true"></i> </button>{{childrens}}<button [disabled]=addChiDs (click)="addChildreens()"> <i class="fa fa-plus-circle" aria-hidden="true"></i></button></div>
+</div>
+</div>
+</div>
+</div>

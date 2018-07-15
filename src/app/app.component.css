@@ -1,0 +1,14 @@
+ .fa-plus-circle
+  {
+  	color:red;
+  }
+  .fa{
+  padding:10px;
+  }
+  button{
+  border: none;
+    background-color: transparent;
+}
+button[disabled], html input[disabled]{
+	background-color: #c1c1c1;
+}
